@@ -325,10 +325,10 @@ class  EventServiceActor(
                       s"et=${entityType} eid=${entityId} " +
                       s"li=${limit} rev=${reversed} ")
 
-                    require(!((reversed == Some(true))
-                      && (entityType.isEmpty || entityId.isEmpty)),
-                      "the parameter reversed can only be used with" +
-                      " both entityType and entityId specified.")
+                    //require(!((reversed == Some(true))
+                    //  && (entityType.isEmpty || entityId.isEmpty)),
+                    //  "the parameter reversed can only be used with" +
+                    //  " both entityType and entityId specified.")
 
                     val parseTime = Future {
                       val startTime = startTimeStr.map(Utils.stringToDateTime(_))
