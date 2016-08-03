@@ -26,7 +26,7 @@ import java.util.zip.ZipInputStream
 
 import grizzled.slf4j.Logging
 import io.prediction.controller.Utils
-import io.prediction.core.BuildInfo
+
 import org.apache.commons.io.FileUtils
 import org.json4s._
 import org.json4s.native.JsonMethods._

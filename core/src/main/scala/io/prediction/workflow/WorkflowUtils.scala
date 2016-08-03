@@ -25,7 +25,6 @@ import io.prediction.controller.Evaluation
 import io.prediction.controller.Params
 import io.prediction.controller.PersistentModelLoader
 import io.prediction.controller.Utils
-import io.prediction.core.BuildInfo
 
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
