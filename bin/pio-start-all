@@ -78,7 +78,7 @@ if [[ "$pgsqlStatus" < 5 ]]; then
 fi
 
 # PredictionIO Event Server
-echo "Waiting 10 seconds for HBase to fully initialize..."
-sleep 10
+echo "Waiting 30 seconds for HBase to fully initialize..."
+sleep 30
 echo "Starting PredictionIO Event Server..."
 ${PIO_HOME}/bin/pio-daemon ${PIO_HOME}/eventserver.pid eventserver --ip 0.0.0.0
